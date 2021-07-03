@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.webdevelopers.com</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</head>
+<style>
+    .card {
+        display: inline-block;
+        height: 10px;
+    }
+
+    div h4 {
+        color: white;
+    }
+
+    .col-lg-4 {
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    .redfe {
+        clip-path: circle(49.2% at 50% 50%);
+        height: 140px;
+        width: 140px;
+        background-image: url("/images/th\ \(4\).jfif");
+        background-size: cover;
+        margin-top: 2%;
+        margin-left: 20%;
+        border: 11px black;
+    }
+
+    .redfes {
+        clip-path: circle(48.2% at 50% 50%);
+        height: 140px;
+        width: 140px;
+        background-image: url("/images/jannis-brandt-4mHaSX8zvJI-unsplash.jpg");
+        background-size: cover;
+        margin-top: 5%;
+        margin-left: 20%;
+        border: 11px black;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    nav {
+        t
+    }
+
+    label {
+        height: 1px;
+    }
+</style>
+
+<body>
+    <!--navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top active">
+        <div class="container-fluid">
+            <h4>वेब डेवलपर्स</h4>
+            <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  active" href="/hindi/hindex.html" tabindex="-1" aria-disabled="true">घर</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/hindi/hopinion.html">आप काराय</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/hindi/habout.html">हमारे बारे में</a>
+                    </li>
+                    </li>
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/1st.html" tabindex="-1" aria-disabled="true">लॉग आउट</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Select languages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="/index.html">English</a></li>
+                          <li><a class="dropdown-item" href="/hindi/hindex.html">Hindi</a></li>
+                        
+                          </ul>
+                      </li>
+                </ul>
+                <form class="d-flex">
+
+                    <input class="form-control me-2" type="search" placeholder="खोज" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">खोज</button>
+
+
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <!--dissmissing alert-->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>जल्दी से!</strong> कृपया नीचे दिए गए पाठ्यक्रमों को देखें। ऑफ़र १० दिनों तक मान्य है!</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <!--carousel-->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade container " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images\austin-distel-TluMvvrZ57g-unsplash.jpg" class="d-block w-100" alt="...a">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/ben-kolde-bs2Ba7t69mM-unsplash.jpg" class="d-block w-100" alt="...b">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/christian-bouvier-ozhoqIaZK6o-unsplash.jpg" class="d-block w-100" alt="...c">
+                </div>
+            </div>
+            <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <hr>
+    <!--circle cards-->
+    <div class="col-lg-4" id="web">
+        <div class="redfes"></div>
+        <span class="badge bg-danger">नया कोर्स</span>
+        <h2>वेब विकास</h2>
+        <p>यह कोर्स MERN टेक्नोलॉजी का उपयोग करके वेब-डेवलपमेंट प्रदान करता है।</p>
+        <p><a class="btn btn-dark" href="/hindi/hviewdetails.html">विवरण देखें »</a></p>
+    </div>
+    <div class="col-lg-4">
+        <div class="redfe"></div>
+
+        <h2>स्कूल का पाठ्यक्रम</h2>
+        <p>यह पाठ्यक्रम आपके बच्चे के स्कूल पाठ्यक्रम को कवर करता है। सीबीएसई बोर्ड पर आधारित <br> पाठ्यक्रम।</p>
+        <p><a class="btn btn-dark" href="/hindi/hviewdetails2.html">विवरण देखें »</a></p>
+    </div>
+    <!--end-->
+    <footer class="pt-4 my-md-10 pt-md-5 border-top bg-dark  container-fluid">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="Aaditya\integration_instructions_black_24dp.svg" alt="" width="54" height="29">
+                <small class="d-block mb-3 text-muted">© 2020–2021</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a>
+                    </li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
